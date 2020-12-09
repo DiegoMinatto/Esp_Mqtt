@@ -1,0 +1,76 @@
+.App{
+ width: 100%;
+ height: 100%;
+}
+body {
+  background-color: #181824;
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.color{
+  color: aqua;
+}
+.Nav{
+  border-bottom:1px solid #4dcd84;
+  background-color:#4dcd84;
+  color:black;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.TempAtual{
+  position: relative;
+width: 100%;
+color: white;
+font-size: 30px;
+display: flex;
+align-items: center;
+    justify-content: center;
+}
+
+.TempInfo{
+  margin-left: 10px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.container{
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+.temp{
+  width: 100%;
+  min-height: 150px;
+  height: calc(100% - 450px);
+  color: white;
+  display: flex;
+    align-items: center;
+}
+.ContainerTemp{
+  width: 100%;
+
+}
+.grafico{
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 400px;
+}
