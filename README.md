@@ -1,4 +1,4 @@
-# Leitura do sensor DHT11 a partir do esp8266 e utilizando o protocolo MQTT para a troca de dados e utilizando uma interface em react com backend NodeJS para exibir os resultados.
+# Leitura do sensor DHT11 a partir do esp8266 e utilizando o protocolo MQTT para a troca de dados e com uma interface em react requisitando dados de um backend NodeJS para exibir os resultados.
 
 ## Funções implementadas no esp8266
 
